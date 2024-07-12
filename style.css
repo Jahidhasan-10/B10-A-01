@@ -32,3 +32,53 @@ header .resume {
      background-color: black;
      color: white;
    }
+
+   /* banner section */
+
+.header-banner{
+  background-image: url(./assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.banner-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.banner-container img{
+  height: 315px;
+  width: 315px;
+  margin: 32px auto 0 auto;
+}
+.upper-head{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 567;
+  line-height: 32px;
+  margin-top: 40px;
+  letter-spacing: 0%;
+}
+.banner-container p{
+  margin: 50px 50px 0 50px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0%;
+}
+.banner-btn{
+  height: 50px;
+  width: 180px;
+  padding: 10px 5px;
+  background-color: #0D1321;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.banner-container button{
+  margin: 50px 510px 50px 520px;
+}
