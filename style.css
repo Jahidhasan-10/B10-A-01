@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* header section */
+
 header .resume {
     display: flex;
     align-items: center;
@@ -340,4 +343,87 @@ iframe{
 }
 .box-color-three{
   background-color: rgba(255, 223, 0, 0.05);;
+}
+
+/* footer section */
+
+.support-container{
+  text-align: center;
+  line-height: 50px;
+  height: 200px;
+  width: 900px;
+  margin: 40px auto 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.512),rgba(0, 0, 0, 0.564)), url(./assets/handshake.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 50px 30px;
+  opacity: 1.6;
+}
+.support-container>h1{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+.support-container>p{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+.support-container .feedback-box{
+  width: 400px;
+  border-radius: 9px;
+  border-color: transparent;
+}
+.support-container .feedback-submit{
+  width: 80px;
+  height: 42px;
+  border-radius: 9px;
+  border-color: transparent;
+}
+.feedback-submit:hover{
+  cursor: pointer;
+  background-color: white;
+  color: white;
+}
+.feedback{
+  margin-top: 40px;
+}
+.feedback input[type="text"] {
+  padding: 10px;  
+}
+.feedback input[type="button"]{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* footer contact media section  */
+
+.contact-container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: rgba(13, 19, 33, 0.03);
+}
+.contact-container h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  margin-top: 13px;
+  margin-left: 230px;
+}
+.contact-container a{
+  margin-inline: 9px;
+}
+.contact-container .contact-media{
+  margin: 8px 230px 7px 0;
 }
