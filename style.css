@@ -208,3 +208,43 @@ header .resume {
 .Explain-tertiary-image{
   margin: 0 70px 10px 0;
 }
+
+/* My Inspiration Portion */
+
+.Inspiration{
+  margin: 50px 130px 0 130px;
+}
+.Inspiration-primary{
+  text-align: center;
+}
+.Inspiration-primary h1{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+.Inspiration-primary p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin: 30px 100px 0 100px;
+}
+
+/* Inspiration video section */
+
+.Inspiration-video{
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 10px;
+  margin: 40px auto 0 auto;
+}
+iframe{
+  border-radius: 10px;
+  width: 1176px;
+  height: 550px;
+  margin: 40px 40px 40px 40px;
+}
